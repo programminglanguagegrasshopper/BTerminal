@@ -1,5 +1,5 @@
 # BTerminal
-=======================
+===========
 
 BTerminal is a simple terminal made in C that uses some of the WinAPI libraries and C libraries,
 like `windows.h`, `stdlib.h`, etc.
