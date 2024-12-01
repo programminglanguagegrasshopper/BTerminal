@@ -1,4 +1,4 @@
-# BTerminal
+# BTerminal [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 BTerminal is a simple terminal made in C that uses some of the WinAPI libraries and C libraries,
 like `windows.h`, `stdlib.h`, etc.
 
