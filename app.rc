@@ -1,4 +1,35 @@
+#include <windows.h>
+#include "version.h"
 #include "resource.h"
 
 IDI_APP_ICON ICON "btrm.ico"
 1 24 "app.manifest"
+
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION     1,6,9,0
+PRODUCTVERSION  1,6,9,0
+FILEFLAGSMASK   VS_FFI_FILEFLAGSMASK
+FILEFLAGS       0
+FILEOS          VOS__WINDOWS32
+FILETYPE        VFT_APP
+FILESUBTYPE     VFT_UNKNOWN
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0" // LANG_ENGLISH/SUBLANG_DEFAULT, Unicode codepage
+        BEGIN
+            VALUE "CompanyName",      "Fishiness fishes\0"
+            VALUE "FileDescription",  "Simple Windows Console\0"
+            VALUE "FileVersion",      "1.6.9.0\0"
+            VALUE "InternalName",     "btrm64.exe\0"
+            VALUE "OriginalFilename", "btrm64.exe\0"
+            VALUE "ProductName",      "Console Terminal\0"
+            VALUE "ProductVersion",   "1.6.9.0\0"
+            VALUE "LegalCopyright",   "© 2025 mghp the fish\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0409, 1200
+    END
+END
