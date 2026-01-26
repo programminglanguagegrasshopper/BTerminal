@@ -1,16 +1,17 @@
 # BTerminal [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 BTerminal is a simple terminal made in C that uses some of the WinAPI libraries and C libraries,
 like `windows.h`, `stdlib.h`, etc.
+**Warning:** This program is not for security/professional stuff. I only made this program for fun.
 
 ## Libraries for runtime
 BTerminal also needs some libraries that help in the runtime, like for DPI Awareness, or windows.
 Here is all of them:
 `windows.h` - not necessary, but still recommended.
-`libgcc_s_dw2-1.dll` - **Necessary for runtime, helps in C code and compiling.**
-This library comes along MinGW/GCC. Don't worry, the library is in the folder.
+`libgcc_s_dw2-1.dll` - **Necessary for runtime.**
+If you already have MinGW/GCC properly installed, then you won't need to download the libraries above again.
 Please report issues if you find any.
 
-## Explanation
+## windows.h?
 `windows.h` is a library provided by Microsoft, it also comes along with the multiplatform MinGW
 package. Here are some uses:
 ```c
